@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  form(action="/search" method="POST")
+    label(for="keywords") Keywords
+    input(name="keywords" type="text")
+    div.options
+      input(name ="new" type="checkbox" checked="true")
+      label(for="new") Search New
+    
+    button(action="submit" name="search") Search

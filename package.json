@@ -1,0 +1,32 @@
+{
+  "name": "kijijify",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./start.js --ignore public"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "cron": "^1.2.1",
+    "debug": "~2.6.3",
+    "dotenv": "^4.0.0",
+    "eslint": "^4.4.1",
+    "express": "~4.15.2",
+    "kijiji-scraper": "^2.0.0",
+    "mongoose": "^4.11.7",
+    "morgan": "~1.8.1",
+    "node-sass-middleware": "^0.9.8",
+    "nodemailer": "^4.0.1",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "pug": "~2.0.0-beta11"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "nodemon": "^1.11.0"
+  }
+}

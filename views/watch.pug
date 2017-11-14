@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  form(action="/watch" method="POST")
+    label(for="keywords") Keywords
+    input(name="keywords" type="text")
+    label(for="email") Email
+    input(name="email" type="email")
+    input(type="submit" action="submit" value="Create Kijiji Watch")
